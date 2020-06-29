@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.nasa-logo {
+  height: 300px;
+  width: 500px;
+  margin: auto;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
