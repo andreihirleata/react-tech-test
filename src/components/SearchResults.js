@@ -1,6 +1,10 @@
 import React from "react";
 
-const SearchResults = () => {
+const SearchResults = ({ results }) => {
+  if (!results.length) {
+    console.log(results);
+    return <p>No results</p>;
+  } else console.log(results);
   return (
     <>
       <p>Search Results</p>
